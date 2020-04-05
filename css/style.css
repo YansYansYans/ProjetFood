@@ -1,0 +1,150 @@
+.img img {
+	background-color: #009688;
+	width : 20%;
+	display : block;
+	margin : auto;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 5%;
+}
+
+#blockmain {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	height: 1200px;
+}
+.blockleft {
+	width: 45%;
+}
+.blockright {
+	width: 45%;
+}
+a {
+	text-decoration: none;
+}
+.menu1 {
+	background-color: #ffcdd2;
+	height: 45%;
+	margin-bottom: 10%;
+	box-shadow: 1px 1px 8px grey;
+	text-align: center;
+	vertical-align: top;
+}
+.menu1 a h3, .menu1 a h2 {
+	font-family: Gabriola;
+	color: #3E2723;
+	font-size: 3em;
+	padding-top: 45%;
+}
+.menu1 a h2 {
+	margin-top: -50%;
+}
+.menu2 {
+	background-color: #FCE4EC;
+	height: 45%;
+	margin-bottom: 10%;
+	box-shadow: 1px 1px 8px grey;
+	text-align: center;
+}
+.menu2 a h3, .menu2 a h2{
+	font-family: Brush Script MT;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3em;
+	padding-top: 45%;
+}
+.menu2 a h2 {
+	margin-top: -45%;
+}
+.menu3 {
+	background-color: #ECEFF1;
+	height: 45%;
+	margin-bottom: 10%;
+	margin-bottom: 10%;
+	box-shadow: 1px 1px 8px grey;
+	text-align: center;
+	vertical-align: top;
+}
+.menu3 a h3, .menu3 a h2{
+	font-family: Berlin Sans FB;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.5em;
+	padding-top: 50%;
+}
+.menu3 a h2 {
+	margin-top: -45%;
+}
+.menu4 {
+	background-color: #FAFAFA;
+	height: 45%;
+	margin-bottom: 10%;
+	box-shadow: 1px 1px 8px grey;
+	text-align: center;
+}
+.menu4 a h3, .menu4 a h2{
+	font-family: Lucida Handwriting;
+	font-weight: bold;
+	background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2em;
+	padding-top: 45%;
+}
+.menu4 a h2 {
+	margin-top: -35%;
+}
+.sup {
+	justify-content: center;
+}
+.bouton {
+	justify-content: center;
+	display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.bouton h2 {
+	background-color: #009688;
+	color: #FFCA28;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 2em;
+	display: flex;
+	padding-left: 15%;
+	padding-right: 15%;
+	border-radius: 10px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer {
+	background-color: #009688;
+	width : 50%;
+	justify-content: space-between;
+	margin : auto;
+	display: flex;
+	padding-left: 30%;
+	margin-top: 5%;
+}
+footer h3 a {
+	color: #FFCA28;
+	font-family: Calibri;
+	font-weight: normal;
+}
+.mention {
+	margin-left: -55%;
+}
+.contact {
+	margin-right: 5%;
+}
