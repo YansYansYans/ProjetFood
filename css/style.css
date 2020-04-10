@@ -273,6 +273,7 @@ footer h3:hover {
 	font-family: Brush Script MT;
 	font-weight: normal;
 	color: black;
+	font-size: 1em;
 }
 .delice h2 {
 	font-family: Brush Script MT;
@@ -281,6 +282,11 @@ footer h3:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
     font-size: 1.8em;  
+}
+.delice img {
+	width: 35%;
+	height: 10%;
+	margin-top: 4%;
 }
 
 
@@ -339,11 +345,6 @@ footer h3:hover {
 
 .mentionsite h3 {
 	margin-left: 7%;
-}
-
-hr {
-	width: 30%;
-	height: 5%;
 }
 
 .description1, .description2, .description3 {
