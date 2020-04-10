@@ -259,7 +259,25 @@ footer h3:hover {
 	font-family: Gabriola;
 	font-style: italic;
 	color: #3E2723;
+	padding-bottom: 2.5%;
 }
+.note .titre {
+	font-size: 2.2em;
+}
+.note .titre1 {
+	margin-top: -5%;
+}
+.note img {
+	width: 35%;
+	height: 10%;
+	margin-top: 6%;
+}
+.titrebottom {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 2%;
+}
+
 
 
 .delice p {
@@ -352,8 +370,4 @@ footer h3:hover {
 	justify-content: space-between;
 	margin-left: 7%;
 	margin-right: 7%;
-}
-.titrebottom {
-	text-align: center;
-	font-size: 1.3em;
 }
