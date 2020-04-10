@@ -251,7 +251,6 @@ footer h3:hover {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-top: 5%;
-
 }
 
 
@@ -311,9 +310,6 @@ footer h3:hover {
 .chic {
 	font-family: Berlin Sans FB;
 	font-weight: normal;
-	background: -webkit-linear-gradient(90deg,  #9575CD 0% -0%, #D84315);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .chic h3 {
 	font-family: Berlin Sans FB;
@@ -323,14 +319,39 @@ footer h3:hover {
 .chic .titre h2 {
 	font-family: Berlin Sans FB;
 	font-weight: normal;
-	background: -webkit-linear-gradient(0deg,  #9575CD 0% -0%, #D84315);
+	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-size: 1.5em;
+}
+.chic .titre1 {
+	color: rgb(198,116,18);
+}
+.chic .titre2 {
+	color: rgb(165,103,153);
+}
+.chic .titre3 {
+	color: rgb(110,76,204);
 }
 .chic p {
 	line-height: 2;
 	font-size: 1.2em;
 }
+.chic .description1 {
+	color: rgb(198,116,18);
+}
+.chic .description2 {
+	color: rgb(165,103,153);
+}
+.chic .description3 {
+	color: rgb(110,76,204);
+}
+.chic img {
+	width: 35%;
+	height: 10%;
+	margin-top: 2.5%;
+}
+
 
 
 .palette p {
