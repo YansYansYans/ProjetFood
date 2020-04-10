@@ -40,7 +40,11 @@ body {
 	margin-left: 2.5%;
 }
 
-
+i.fas {
+	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
 a {
 	text-decoration: none;
@@ -74,10 +78,10 @@ a {
     margin-bottom: 10%;
 }
 .menu2 {
-	background-color: #FCE4EC;		
+	background-color: #ECEFF1;		
 }
 .menu3 {
-	background-color: #ECEFF1;
+	background-color: #FCE4EC;
     margin-bottom: 10%;
 }
 .menu4 {
@@ -202,30 +206,153 @@ footer h3:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-body {
-	background-color: black;
-}
-
-
-
-
-.note {
-	background-color: #ffcdd2;
+.note, .chic, .delice, .palette, .mentionsite {
 	box-shadow: 0px 0px 10px grey; 	
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
 	max-width: 800px;
 	flex-direction: column;
+	margin-bottom: 10%;
+	padding-bottom: 10%;
+}
+
+.note {
+	background-color: #ffcdd2;
+}
+.chic {
+	background-color: #FCE4EC;
+}
+.delice {
+	background-color: #ECEFF1;
+}
+.palette {
+	background-color: #FAFAFA;
+}
+.mentionsite {
+	background-color: #FFCA28;
+}
+
+.titre {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5%;
+}
+#blocknote h3, #blockchic h3, #blockdelice h3, #blockpalette h3 {
+	text-align: center;
+}
+#blocknote p {
+	font-size: 1.5em; 
+}
+.titre1, .titre2, .titre3 {
+	display: flex;
+	font-size: 2em;
+	justify-content: space-between;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 5%;
+
+}
+
+
+.note {
+	font-family: Gabriola;
+	font-style: italic;
+	color: #3E2723;
+}
+
+
+.delice p {
+	font-family: Brush Script MT;
+	font-weight: normal;
+	color: black;
+	line-height: 2;
+	font-size: 1.4em;
+}
+.delice h3 {
+	font-family: Brush Script MT;
+	font-weight: normal;
+	color: black;
+}
+.delice h2 {
+	font-family: Brush Script MT;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-size: 1.8em;  
+}
+
+
+.chic {
+	font-family: Berlin Sans FB;
+	font-weight: normal;
+	background: -webkit-linear-gradient(90deg,  #9575CD 0% -0%, #D84315);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.chic h3 {
+	font-family: Berlin Sans FB;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+.chic .titre h2 {
+	font-family: Berlin Sans FB;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg,  #9575CD 0% -0%, #D84315);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.chic p {
+	line-height: 2;
+	font-size: 1.2em;
+}
+
+
+.palette p {
+	font-family: Lucida Handwriting;
+	font-weight: normal;
+	color: black;
+	line-height: 3;
+	font-size: 1em;
+}
+.palette h3 {
+	font-family: Lucida Handwriting;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+.palette h2 {
+	font-family: Lucida Handwriting;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.5em;  
+}
+.palette img {
+	width: 35%;
+	height: 10%;
+	margin-top: 2.5%;
+}
+
+
+
+.mentionsite h3 {
+	margin-left: 7%;
+}
+
+hr {
+	width: 30%;
+	height: 5%;
+}
+
+.description1, .description2, .description3 {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.titrebottom {
+	text-align: center;
+	font-size: 1.3em;
 }
