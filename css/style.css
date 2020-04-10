@@ -62,13 +62,15 @@ footer h3:hover {
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
-	max-width: 700px;
+	max-width: 1000px;
 }
 .left {
 	margin-right: 2.5%;
+	margin-left: -7.5%;
 }
 .right {
 	margin-left: 2.5%;
+	margin-left: -20%;
 }
 i.fas {
 	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
@@ -83,7 +85,6 @@ i.fas {
 	width: 100%;
     max-width: 400px;
     height: 200px;
-    margin: 15px;
     padding-top: 200px;
     padding-bottom: 150px;
     font-size: 1.5em;
@@ -92,17 +93,21 @@ i.fas {
 }
 .menu1 {
 	background-color: #ffcdd2;	
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    padding-right: 30%;
 }
 .menu2 {
-	background-color: #ECEFF1;		
+	background-color: #ECEFF1;
+	padding-right: 30%;		
 }
 .menu3 {
 	background-color: #FCE4EC;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    padding-right: 25%;
 }
 .menu4 {
-	background-color: #FAFAFA;		
+	background-color: #FAFAFA;
+	padding-right: 25%;	
 }
 .menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
 	transform: scale(1.1);
@@ -113,7 +118,9 @@ i.fas {
 	font-family: Gabriola;
 	font-style: italic;
 	color: #3E2723;
-	font-size: 2.1em;
+	font-size: 1.5em;
+	margin-left: 25%;
+	margin-top: -10%;
 }
 .menu2 p {
 	font-family: Brush Script MT;
@@ -121,7 +128,9 @@ i.fas {
 	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
-    font-size: 1.8em;  
+    font-size: 1.8em;
+    margin-left: 30%;
+	margin-top: -5%;  
 }
 .menu3 p {
 	font-family: Berlin Sans FB;
@@ -130,6 +139,8 @@ i.fas {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 1.5em;
+    margin-left: 25%;
+	margin-top: 5%;  
 }
 .menu4 p {
 	font-family: Lucida Handwriting;
@@ -138,6 +149,8 @@ i.fas {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 1em;
+    margin-left: 25%;
+	margin-top: 5%; 
 }
 .box5 {
 	text-align: center;
