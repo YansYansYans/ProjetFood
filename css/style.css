@@ -14,158 +14,14 @@ header {
 	margin-bottom: 5%;
 	justify-content: space-between;
 }
-
-
 body {
 	width: 1100px;
     margin: auto;
     display: block;
 }
-
-
-
-#blockmain {
-	margin: auto;
-	display: flex;
-	justify-content: space-around;
-	max-width: 700px;
-}
-
-
-
-.left {
-	margin-right: 2.5%;
-}
-.right {
-	margin-left: 2.5%;
-}
-
-i.fas {
-	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
 a {
 	text-decoration: none;
 }
-
-
-
-.fa, .fas {
-    font-weight: 900;
-}
-
-
-
-.menu1, .menu2, .menu3, .menu4 {
-	box-shadow: 0px 0px 8px grey;
-	width: 100%;
-    max-width: 400px;
-    height: 200px;
-    margin: 15px;
-    padding-top: 200px;
-    padding-bottom: 150px;
-    font-size: 1.5em;
-    text-align: center;
-    display: block;
-}
-
-
-
-.menu1 {
-	background-color: #ffcdd2;	
-    margin-bottom: 10%;
-}
-.menu2 {
-	background-color: #ECEFF1;		
-}
-.menu3 {
-	background-color: #FCE4EC;
-    margin-bottom: 10%;
-}
-.menu4 {
-	background-color: #FAFAFA;		
-}
-
-
-
-.menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
-	transform: scale(1.1);
-	opacity: 40%;
-	transition: 1000ms;
-}
-
-
-
-.menu1 p {
-	font-family: Gabriola;
-	font-style: italic;
-	color: #3E2723;
-	font-size: 2.1em;
-}
-.menu2 p {
-	font-family: Brush Script MT;
-	font-weight: normal;
-	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; 
-    font-size: 1.8em;  
-}
-.menu3 p {
-	font-family: Berlin Sans FB;
-	font-weight: normal;
-	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 1.5em;
-}
-.menu4 p {
-	font-family: Lucida Handwriting;
-	font-weight: bold;
-	background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 1em;
-}
-
-
-
-
-.box5 {
-	text-align: center;
-	display: block;
-}
-mark {
-	background-color: #009688;
-	color: #FFCA28;
-	font-family: Calibri;
-	font-weight: normal;
-	font-size: 2em;
-	display: inline-block;
-	text-align: center;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin: 100px;
-	border-radius: 10px 10px 10px 10px;
-
-}
-.btn {
-	content: ".";
-    animation: btn 1.2s steps(5, end) infinite;
-}
-@keyframes btn {
-	20% { color: rgba(0, 0, 0, 0); text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0); }
-	40% { color: #eeee09; text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0); }
-	60% { text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 rgba(0, 0, 0, 0); }
-	100% { text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09; }
-	animation-delay:0s;
-}
-
-
-
 footer {
 	background-color: #009688;
 	bottom: 0px;
@@ -201,11 +57,119 @@ footer h3:hover {
 .contact {
 	margin-right: 5%;
 }
-
-
-
-
-
+/***************************************************************************************************************************************/
+#blockmain {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	max-width: 700px;
+}
+.left {
+	margin-right: 2.5%;
+}
+.right {
+	margin-left: 2.5%;
+}
+i.fas {
+	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.menu1, .menu2, .menu3, .menu4 {
+	box-shadow: 0px 0px 8px grey;
+	width: 100%;
+    max-width: 400px;
+    height: 200px;
+    margin: 15px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+.menu1 {
+	background-color: #ffcdd2;	
+    margin-bottom: 10%;
+}
+.menu2 {
+	background-color: #ECEFF1;		
+}
+.menu3 {
+	background-color: #FCE4EC;
+    margin-bottom: 10%;
+}
+.menu4 {
+	background-color: #FAFAFA;		
+}
+.menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
+	transform: scale(1.1);
+	opacity: 40%;
+	transition: 1000ms;
+}
+.menu1 p {
+	font-family: Gabriola;
+	font-style: italic;
+	color: #3E2723;
+	font-size: 2.1em;
+}
+.menu2 p {
+	font-family: Brush Script MT;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-size: 1.8em;  
+}
+.menu3 p {
+	font-family: Berlin Sans FB;
+	font-weight: normal;
+	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.5em;
+}
+.menu4 p {
+	font-family: Lucida Handwriting;
+	font-weight: bold;
+	background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1em;
+}
+.box5 {
+	text-align: center;
+	display: block;
+}
+mark {
+	background-color: #009688;
+	color: #FFCA28;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 100px;
+	border-radius: 10px 10px 10px 10px;
+}
+.btn {
+	content: ".";
+    animation: btn 1.2s steps(5, end) infinite;
+}
+@keyframes btn {
+	20% { color: rgba(0, 0, 0, 0); text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0); }
+	40% { color: #eeee09; text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0); }
+	60% { text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 rgba(0, 0, 0, 0); }
+	100% { text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09; }
+	animation-delay:0s;
+}
+/*********************************************************************************************************************************************/
 .note, .chic, .delice, .palette, .mentionsite {
 	box-shadow: 0px 0px 10px grey; 	
 	margin: auto;
@@ -216,7 +180,6 @@ footer h3:hover {
 	margin-bottom: 10%;
 	padding-bottom: 10%;
 }
-
 .note {
 	background-color: #ffcdd2;
 }
@@ -232,7 +195,6 @@ footer h3:hover {
 .mentionsite {
 	background-color: #FFCA28;
 }
-
 .titre {
 	text-align: center;
 	font-size: 2em;
@@ -251,9 +213,15 @@ footer h3:hover {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-top: 5%;
+	text-decoration: underline;
 }
-
-
+.description1, .description2, .description3 {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+/******************************************************************************************************************************************************/
 .note {
 	font-family: Gabriola;
 	font-style: italic;
@@ -276,9 +244,7 @@ footer h3:hover {
 	font-size: 1.5em;
 	margin-top: 2%;
 }
-
-
-
+/*******************************************************************************************************************************************************/
 .delice p {
 	font-family: Brush Script MT;
 	font-weight: normal;
@@ -305,8 +271,7 @@ footer h3:hover {
 	height: 10%;
 	margin-top: 4%;
 }
-
-
+/*******************************************************************************************************************************************************/
 .chic {
 	font-family: Berlin Sans FB;
 	font-weight: normal;
@@ -351,9 +316,7 @@ footer h3:hover {
 	height: 10%;
 	margin-top: 2.5%;
 }
-
-
-
+/*******************************************************************************************************************************************************/
 .palette p {
 	font-family: Lucida Handwriting;
 	font-weight: normal;
@@ -379,16 +342,9 @@ footer h3:hover {
 	height: 10%;
 	margin-top: 2.5%;
 }
-
-
-
+/*******************************************************************************************************************************************************/
 .mentionsite h3 {
 	margin-left: 7%;
 }
+/*******************************************************************************************************************************************************/
 
-.description1, .description2, .description3 {
-	display: flex;
-	justify-content: space-between;
-	margin-left: 7%;
-	margin-right: 7%;
-}
