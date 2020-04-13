@@ -355,7 +355,32 @@ mark {
 
 
 
-
+@media all and (max-device-width: 576px)
+{
+	#blockmain {
+		flex-direction: column;
+	}
+	.left {
+		margin-bottom: 10%;
+	}
+	.img img {
+		width : 300%;
+		margin-left: -150%;
+		margin-top: 40%;
+}
+	header {
+		background-color: #009688;
+		width: 20%;
+		display : block;
+		margin : auto;
+		padding-left: 50%;
+		padding-right: 30%;
+		padding-top: 2em;
+		padding-bottom: 7em;
+		margin-bottom: 5%;
+		justify-content: space-between;
+}
+}
 
 
 
