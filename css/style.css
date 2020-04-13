@@ -62,15 +62,8 @@ footer h3:hover {
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
-	max-width: 1000px;
-}
-.left {
-	margin-right: 2.5%;
-	margin-left: -7.5%;
-}
-.right {
-	margin-left: 2.5%;
-	margin-left: -20%;
+	max-width: 750px;
+	flex-wrap: wrap;
 }
 i.fas {
 	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
@@ -84,30 +77,30 @@ i.fas {
 	box-shadow: 0px 0px 8px grey;
 	width: 100%;
     max-width: 400px;
-    height: 200px;
-    padding-top: 200px;
-    padding-bottom: 150px;
+    height: 350px;
+    margin: 15px;
+    padding-top: 230px;
     font-size: 1.5em;
     text-align: center;
     display: block;
 }
 .menu1 {
 	background-color: #ffcdd2;	
-    margin-bottom: 15%;
-    padding-right: 30%;
+	width: 100%;  
+	margin-bottom: 10%; 
 }
 .menu2 {
 	background-color: #ECEFF1;
-	padding-right: 30%;		
+	width: 100%;		
 }
 .menu3 {
 	background-color: #FCE4EC;
-    margin-bottom: 15%;
-    padding-right: 25%;
+    width: 100%;
+    margin-bottom: 10%;
 }
 .menu4 {
 	background-color: #FAFAFA;
-	padding-right: 25%;	
+	width: 100%;	
 }
 .menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
 	transform: scale(1.1);
@@ -119,7 +112,7 @@ i.fas {
 	font-style: italic;
 	color: #3E2723;
 	font-size: 1.5em;
-	margin-left: 25%;
+	text-align: center;
 	margin-top: -10%;
 }
 .menu2 p {
@@ -129,8 +122,8 @@ i.fas {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
     font-size: 1.8em;
-    margin-left: 30%;
-	margin-top: -5%;  
+    text-align: center; 
+    margin-top: 3%;
 }
 .menu3 p {
 	font-family: Berlin Sans FB;
@@ -139,8 +132,7 @@ i.fas {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 1.5em;
-    margin-left: 25%;
-	margin-top: 5%;  
+    text-align: center;
 }
 .menu4 p {
 	font-family: Lucida Handwriting;
@@ -149,8 +141,7 @@ i.fas {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 1em;
-    margin-left: 25%;
-	margin-top: 5%; 
+    text-align: center;
 }
 .box5 {
 	text-align: center;
@@ -360,4 +351,13 @@ mark {
 	margin-left: 7%;
 }
 /*******************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
 
