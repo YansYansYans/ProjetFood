@@ -395,7 +395,9 @@ mark {
 		font-size: 2.5em;
 		margin-top: -5%;
 	}
-
+	mark {
+	font-size: 4em;
+}
 	footer {
 		height: 200px;
 	}
