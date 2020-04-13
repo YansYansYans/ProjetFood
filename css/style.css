@@ -107,6 +107,12 @@ i.fas {
 	opacity: 40%;
 	transition: 1000ms;
 }
+@font-face {
+	font-family: 'Gabriola';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Gabriola'), url('police/gabriola Font Download.woff') format('woff');
+}
 .menu1 p {
 	font-family: Gabriola;
 	font-style: italic;
@@ -397,7 +403,7 @@ mark {
 	}
 	mark {
 	font-size: 4em;
-}
+	}
 	footer {
 		height: 200px;
 	}
