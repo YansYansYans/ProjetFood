@@ -1,3 +1,48 @@
+@font-face {
+    font-family: 'meriendaregular';
+    src: url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.svg#meriendaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kuraleregular';
+    src: url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.svg#kuraleregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dynalightregular';
+    src: url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.svg#dynalightregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 .img img {
 	width : 150%;
 	margin-left: -70%;
@@ -108,20 +153,58 @@ i.fas {
 	transition: 1000ms;
 }
 @font-face {
-	font-family: 'Gabriola';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Gabriola'), url('police/gabriola Font Download.woff') format('woff');
+    font-family: 'meriendaregular';
+    src: url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/merienda-regular-webfont.svg#meriendaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kuraleregular';
+    src: url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/kurale-regular-webfont.svg#kuraleregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dynalightregular';
+    src: url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/dynalight-regular-webfont.svg#dynalightregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.eot');
+    src: url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.woff') format('woff'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('C:/Users/yan95/ProjetFood/police/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 .menu1 p {
-	font-family: Gabriola;
-	font-style: italic;
+	font-family: 'meriendaregular';
 	color: #3E2723;
 	font-size: 1.5em;
 	margin-top: -10%;
 }
 .menu2 p {
-	font-family: Brush Script MT;
+	font-family: 'dynalightregular';
 	font-weight: normal;
 	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
     -webkit-text-fill-color: transparent;
@@ -130,16 +213,14 @@ i.fas {
     margin-top: 3%;
 }
 .menu3 p {
-	font-family: Berlin Sans FB;
-	font-weight: normal;
+	font-family: 'kuraleregular';
 	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 1.5em;
 }
 .menu4 p {
-	font-family: Lucida Handwriting;
-	font-weight: bold;
+	font-family: 'kaushan_scriptregular';
 	background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -222,10 +303,12 @@ mark {
 }
 /******************************************************************************************************************************************************/
 .note {
-	font-family: Gabriola;
-	font-style: italic;
+	font-family: 'meriendaregular';
 	color: #3E2723;
 	padding-bottom: 2.5%;
+	p {
+		line-height: 2;
+	}
 }
 .note .titre {
 	font-size: 2.2em;
@@ -243,22 +326,19 @@ mark {
 	margin-top: 2%;
 }
 /*******************************************************************************************************************************************************/
+.delice p, .delice h3, .delice h2 {
+	font-family: 'dynalightregular';
+}
 .delice p {
-	font-family: Brush Script MT;
-	font-weight: normal;
 	color: black;
 	line-height: 2;
 	font-size: 1.4em;
 }
 .delice h3 {
-	font-family: Brush Script MT;
-	font-weight: normal;
 	color: black;
 	font-size: 1em;
 }
 .delice h2 {
-	font-family: Brush Script MT;
-	font-weight: normal;
 	background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
@@ -271,8 +351,7 @@ mark {
 }
 /*******************************************************************************************************************************************************/
 .chic, .chic h2, .chic h3 {
-	font-family: Berlin Sans FB;
-	font-weight: normal;
+	font-family: 'kuraleregular';
 }
 .chic h2{
 	background: -webkit-linear-gradient(0deg, #D84315 0% -0%, #9575CD);
@@ -303,8 +382,7 @@ mark {
 }
 /*******************************************************************************************************************************************************/
 .palette p, .palette h3, .palette h2 {
-	font-family: Lucida Handwriting;
-	font-weight: normal;
+	font-family: 'kaushan_scriptregular';
 }
 .palette p {
 	color: black;
