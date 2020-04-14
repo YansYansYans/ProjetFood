@@ -1,0 +1,518 @@
+.img img {
+  width: 150%;
+  margin-left: -70%;
+}
+
+header {
+  background-color: #009688;
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-left: 50%;
+  padding-right: 30%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+
+body {
+  width: 1100px;
+  margin: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #009688;
+  bottom: 0px;
+  justify-content: space-between;
+  display: flex;
+  position: sticky;
+}
+footer h3 a {
+  color: #FFCA28;
+  font-family: Calibri;
+  font-weight: normal;
+}
+
+footer h3:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.mention {
+  margin-left: 5%;
+}
+
+.contact {
+  margin-right: 5%;
+}
+
+/***************************************************************************************************************************************/
+#blockmain {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 750px;
+  flex-wrap: wrap;
+}
+
+i.fas {
+  background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+  box-shadow: 0px 0px 8px grey;
+  width: 100%;
+  max-width: 400px;
+  height: 350px;
+  margin: 15px;
+  padding-top: 230px;
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+}
+
+.menu1 {
+  background-color: #ffcdd2;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.menu2 {
+  background-color: #ECEFF1;
+  width: 100%;
+}
+
+.menu3 {
+  background-color: #FCE4EC;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.menu4 {
+  background-color: #FAFAFA;
+  width: 100%;
+}
+
+.menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
+  transform: scale(1.1);
+  opacity: 40%;
+  transition: 1000ms;
+}
+
+@font-face {
+  font-family: "Gabriola";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gabriola"), url("police/gabriola Font Download.woff") format("woff");
+}
+.menu1 p {
+  font-family: Gabriola;
+  font-style: italic;
+  color: #3E2723;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.menu2 p {
+  font-family: Brush Script MT;
+  font-weight: normal;
+  background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.menu3 p {
+  font-family: Berlin Sans FB;
+  font-weight: normal;
+  background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.menu4 p {
+  font-family: Lucida Handwriting;
+  font-weight: bold;
+  background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1em;
+  text-align: center;
+}
+
+.box5 {
+  text-align: center;
+  display: block;
+}
+
+mark {
+  background-color: #009688;
+  color: #FFCA28;
+  font-family: Calibri;
+  font-weight: normal;
+  font-size: 2em;
+  display: inline-block;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btn {
+  content: ".";
+  animation: btn 1.2s steps(5, end) infinite;
+}
+
+@keyframes btn {
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #eeee09;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09;
+  }
+  animation-delay: 0s;
+}
+/*********************************************************************************************************************************************/
+.note, .chic, .delice, .palette, .mentionsite {
+  box-shadow: 0px 0px 10px grey;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  flex-direction: column;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+.note {
+  background-color: #ffcdd2;
+}
+
+.chic {
+  background-color: #FCE4EC;
+}
+
+.delice {
+  background-color: #ECEFF1;
+}
+
+.palette {
+  background-color: #FAFAFA;
+}
+
+.mentionsite {
+  background-color: #FFCA28;
+}
+
+.titre {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 5%;
+}
+
+#blocknote h3, #blockchic h3, #blockdelice h3, #blockpalette h3 {
+  text-align: center;
+}
+
+#blocknote p {
+  font-size: 1.5em;
+}
+
+.titre1, .titre2, .titre3 {
+  display: flex;
+  font-size: 2em;
+  justify-content: space-between;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 5%;
+  text-decoration: underline;
+}
+
+.description1, .description2, .description3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+/******************************************************************************************************************************************************/
+.note {
+  font-family: Gabriola;
+  font-style: italic;
+  color: #3E2723;
+  padding-bottom: 2.5%;
+}
+
+.note .titre {
+  font-size: 2.2em;
+}
+
+.note .titre1 {
+  margin-top: -5%;
+}
+
+.note img {
+  width: 35%;
+  height: 10%;
+  margin-top: 6%;
+}
+
+.titrebottom {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+
+/*******************************************************************************************************************************************************/
+.delice p {
+  font-family: Brush Script MT;
+  font-weight: normal;
+  color: black;
+  line-height: 2;
+  font-size: 1.4em;
+}
+
+.delice h3 {
+  font-family: Brush Script MT;
+  font-weight: normal;
+  color: black;
+  font-size: 1em;
+}
+
+.delice h2 {
+  font-family: Brush Script MT;
+  font-weight: normal;
+  background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.8em;
+}
+
+.delice img {
+  width: 35%;
+  height: 10%;
+  margin-top: 4%;
+}
+
+/*******************************************************************************************************************************************************/
+.chic {
+  font-family: Berlin Sans FB;
+  font-weight: normal;
+}
+
+.chic h3 {
+  font-family: Berlin Sans FB;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.chic .titre h2 {
+  font-family: Berlin Sans FB;
+  font-weight: normal;
+  background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5em;
+}
+
+.chic .titre1 {
+  color: #c67412;
+}
+
+.chic .titre2 {
+  color: #a56799;
+}
+
+.chic .titre3 {
+  color: #6e4ccc;
+}
+
+.chic p {
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+.chic .description1 {
+  color: #c67412;
+}
+
+.chic .description2 {
+  color: #a56799;
+}
+
+.chic .description3 {
+  color: #6e4ccc;
+}
+
+.chic img {
+  width: 35%;
+  height: 10%;
+  margin-top: 2.5%;
+}
+
+/*******************************************************************************************************************************************************/
+.palette p {
+  font-family: Lucida Handwriting;
+  font-weight: normal;
+  color: black;
+  line-height: 3;
+  font-size: 1em;
+}
+
+.palette h3 {
+  font-family: Lucida Handwriting;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.palette h2 {
+  font-family: Lucida Handwriting;
+  font-weight: normal;
+  background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.5em;
+}
+
+.palette img {
+  width: 35%;
+  height: 10%;
+  margin-top: 2.5%;
+}
+
+/*******************************************************************************************************************************************************/
+.mentionsite h3 {
+  margin-left: 7%;
+}
+
+/*******************************************************************************************************************************************************/
+@media all and (max-device-width: 576px) {
+  #blockmain {
+    flex-direction: column;
+  }
+
+  .left {
+    margin-bottom: 20%;
+  }
+
+  .right {
+    margin-bottom: 15%;
+  }
+
+  .img img {
+    width: 300%;
+    margin-left: -150%;
+    margin-top: 40%;
+  }
+
+  header {
+    padding-bottom: 7em;
+  }
+
+  .menu1, .menu2, .menu3, .menu4 {
+    padding-left: 21.25%;
+    padding-right: 21.25%;
+    padding-bottom: 10%;
+  }
+
+  .menu1 p {
+    font-size: 3em;
+    margin-top: -15%;
+  }
+
+  .menu2 p {
+    font-size: 4em;
+    margin-top: -15%;
+  }
+
+  .menu3 p {
+    font-size: 3.5em;
+    margin-top: -5%;
+  }
+
+  .menu4 p {
+    font-size: 2.5em;
+    margin-top: -5%;
+  }
+
+  mark {
+    font-size: 4em;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  footer h3 a {
+    font-size: 3em;
+  }
+
+  footer h3 {
+    padding-top: 10%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
