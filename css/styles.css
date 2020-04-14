@@ -3,23 +3,34 @@
   margin-left: -70%;
 }
 
-header {
+.menu1 p, .menu2 p, .menu3 p, .menu4 p, .box5, mark, .titre, #blocknote h3, #blockchic h3, #blockdelice h3, #blockpalette h3, .menu1, .menu2, .menu3, .menu4, .titrebottom {
+  text-align: center;
+}
+
+header, footer, mark {
   background-color: #009688;
-  width: 20%;
+}
+
+header, footer {
+  justify-content: space-between;
+}
+
+header, body {
   display: block;
   margin: auto;
+}
+
+header {
+  width: 20%;
   padding-left: 50%;
   padding-right: 30%;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-bottom: 5%;
-  justify-content: space-between;
 }
 
 body {
   width: 1100px;
-  margin: auto;
-  display: block;
 }
 
 a {
@@ -27,9 +38,7 @@ a {
 }
 
 footer {
-  background-color: #009688;
   bottom: 0px;
-  justify-content: space-between;
   display: flex;
   position: sticky;
 }
@@ -114,30 +123,25 @@ i.fas {
   margin: 15px;
   padding-top: 230px;
   font-size: 1.5em;
-  text-align: center;
   display: block;
 }
 
 .menu1 {
   background-color: #ffcdd2;
-  width: 100%;
   margin-bottom: 10%;
 }
 
 .menu2 {
   background-color: #ECEFF1;
-  width: 100%;
 }
 
 .menu3 {
   background-color: #FCE4EC;
-  width: 100%;
   margin-bottom: 10%;
 }
 
 .menu4 {
   background-color: #FAFAFA;
-  width: 100%;
 }
 
 .menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
@@ -157,7 +161,6 @@ i.fas {
   font-style: italic;
   color: #3E2723;
   font-size: 1.5em;
-  text-align: center;
   margin-top: -10%;
 }
 
@@ -168,7 +171,6 @@ i.fas {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.8em;
-  text-align: center;
   margin-top: 3%;
 }
 
@@ -179,7 +181,6 @@ i.fas {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5em;
-  text-align: center;
 }
 
 .menu4 p {
@@ -189,22 +190,18 @@ i.fas {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1em;
-  text-align: center;
 }
 
 .box5 {
-  text-align: center;
   display: block;
 }
 
 mark {
-  background-color: #009688;
   color: #FFCA28;
   font-family: Calibri;
   font-weight: normal;
   font-size: 2em;
   display: inline-block;
-  text-align: center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 5px;
@@ -268,23 +265,21 @@ mark {
 }
 
 .titre {
-  text-align: center;
   font-size: 2em;
   margin-top: 5%;
-}
-
-#blocknote h3, #blockchic h3, #blockdelice h3, #blockpalette h3 {
-  text-align: center;
 }
 
 #blocknote p {
   font-size: 1.5em;
 }
 
-.titre1, .titre2, .titre3 {
-  display: flex;
-  font-size: 2em;
+.titre1, .titre2, .titre3, .description1, .description2, .description3 {
   justify-content: space-between;
+  display: flex;
+}
+
+.titre1, .titre2, .titre3 {
+  font-size: 2em;
   margin-left: 2.5%;
   margin-right: 2.5%;
   margin-top: 5%;
@@ -292,8 +287,6 @@ mark {
 }
 
 .description1, .description2, .description3 {
-  display: flex;
-  justify-content: space-between;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -321,7 +314,6 @@ mark {
 }
 
 .titrebottom {
-  text-align: center;
   font-size: 1.5em;
   margin-top: 2%;
 }
@@ -358,53 +350,37 @@ mark {
 }
 
 /*******************************************************************************************************************************************************/
-.chic {
+.chic, .chic h2, .chic h3 {
   font-family: Berlin Sans FB;
   font-weight: normal;
 }
 
-.chic h3 {
-  font-family: Berlin Sans FB;
-  font-weight: normal;
-  font-size: 0.8em;
-}
-
-.chic .titre h2 {
-  font-family: Berlin Sans FB;
-  font-weight: normal;
+.chic h2 {
   background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5em;
 }
 
-.chic .titre1 {
+.chic h3 {
+  font-size: 0.8em;
+}
+
+.chic .titre1, .chic .description1 {
   color: #c67412;
 }
 
-.chic .titre2 {
+.chic .titre2, .chic .description2 {
   color: #a56799;
 }
 
-.chic .titre3 {
+.chic .titre3, .chic .description3 {
   color: #6e4ccc;
 }
 
 .chic p {
   line-height: 2;
   font-size: 1.2em;
-}
-
-.chic .description1 {
-  color: #c67412;
-}
-
-.chic .description2 {
-  color: #a56799;
-}
-
-.chic .description3 {
-  color: #6e4ccc;
 }
 
 .chic img {
@@ -414,23 +390,22 @@ mark {
 }
 
 /*******************************************************************************************************************************************************/
-.palette p {
+.palette p, .palette h3, .palette h2 {
   font-family: Lucida Handwriting;
   font-weight: normal;
+}
+
+.palette p {
   color: black;
   line-height: 3;
   font-size: 1em;
 }
 
 .palette h3 {
-  font-family: Lucida Handwriting;
-  font-weight: normal;
   font-size: 0.8em;
 }
 
 .palette h2 {
-  font-family: Lucida Handwriting;
-  font-weight: normal;
   background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
