@@ -394,20 +394,20 @@ mark {
 		padding-bottom: 10%;
 	}
 	.menu1 p {
-		font-size: 3em;
-		margin-top: -15%;
+		font-size: 2.5em;
+		margin-top: -20%;
 	}
 	.menu2 p {
-		font-size: 4em;
+		font-size: 3.5em;
 		margin-top: -15%;
 	}
 	.menu3 p {
-		font-size: 3.5em;
-		margin-top: -5%;
+		font-size: 3em;
+		margin-top: -1%;
 	}
 	.menu4 p{
-		font-size: 2.5em;
-		margin-top: -5%;
+		font-size: 2.8em;
+		margin-top: -10%;
 	}
 	mark {
 	font-size: 4em;
@@ -420,5 +420,76 @@ mark {
 	}
 	footer h3 {
 		padding-top: 10%;
+	}
+
+
+	.note, .delice, .chic, .palette, .mentionsite {
+		max-width: 1100px;
+		padding-bottom: 7%;
+	}
+	#blocknote p {
+		line-height: 3;
+		font-size: 1.7em; 
+	}
+	.note h3 {
+		font-size: 1.5em;
+	}
+	.note .titre h2 {
+		font-size: 2em;
+	}
+	.note .titre1 {
+		margin-top: 1%;
+	}
+	.note img {
+		margin-top: 5%;
+	}
+	.titrebottom {
+		font-size: 2em;
+		margin-top: 2%;
+	}
+	.delice p {
+	font-size: 3.2em;
+	}
+	.delice h3 {
+		font-size: 1.7em;
+	}
+	.delice h2 {
+	    font-size: 3.3em;  
+	}
+	.delice img {
+		margin-top: 6%;
+	}
+	.chic h2 {
+		font-size: 3em;
+	}
+	.chic h3 {
+	font-size: 1.5em;
+	}
+	.chic p {
+		font-size: 2em;
+	}
+	.chic img {
+		margin-top: 4%;
+	}
+	.palette p {
+		font-size: 2em;
+	}
+	.palette h3 {
+		font-size: 1.5em;
+	}
+	.palette h2 {
+	    font-size: 3em;  
+	}
+	.palette img {
+		margin-top: 5.5%;
+	}
+	.mentionsite h2 {
+		font-size: 3em;
+	}
+	.mentionsite h3 {
+		font-size: 1.6em;
+	}
+	.mentionsite p {
+		font-size: 2.5em;
 	}
 }
