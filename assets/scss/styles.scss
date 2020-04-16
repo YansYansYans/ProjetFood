@@ -43,6 +43,7 @@
     font-weight: normal;
     font-style: normal;
 }
+$animate: all 0.2s ease-in-out;
 .img img {
 	width : 150%;
 	margin-left: -70%;
@@ -234,6 +235,7 @@ mark {
 }
 .mentionsite {
 	background-color: #FFCA28;
+
 }
 .titre {
 	font-size: 2em;
@@ -248,13 +250,13 @@ mark {
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 	margin-top: 5%;
-	text-decoration: underline;
 }
 .description1, .description2, .description3 {
 	margin-left: 7%;
 	margin-right: 7%;
 }
 /******************************************************************************************************************************************************/
+
 .note {
 	font-family: 'meriendaregular';
 	color: #3E2723;
@@ -282,6 +284,54 @@ mark {
 	font-size: 1.2em;
 	margin-top: 2%;
 }
+#blocknote .titre1 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background:#3E2723;
+  	position: absolute;
+  	width: 95px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blocknote .titre1 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blocknote .titre2 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background:#3E2723;
+  	position: absolute;
+  	width: 170px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blocknote .titre2 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blocknote .titre3 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background:#3E2723;
+  	position: absolute;
+  	width: 210px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blocknote .titre3 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 /*******************************************************************************************************************************************************/
 .delice p, .delice h3, .delice h2 {
 	font-family: 'dynalightregular';
@@ -305,6 +355,54 @@ mark {
 	width: 35%;
 	height: 10%;
 	margin-top: 4%;
+}
+#blockdelice .titre1 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 200px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockdelice .titre1 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockdelice .titre2 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 180px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockdelice .titre2 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockdelice .titre3 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 180px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockdelice .titre3 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /*******************************************************************************************************************************************************/
 .chic, .chic h2, .chic h3 {
@@ -337,6 +435,54 @@ mark {
 	height: 10%;
 	margin-top: 2.5%;
 }
+#blockchic .titre1 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: rgb(198,116,18);
+  	position: absolute;
+  	width: 200px;
+	height: 3px;
+	margin-top: 25px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockchic .titre1 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockchic .titre2 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: rgb(165,103,153);
+  	position: absolute;
+  	width: 210px;
+	height: 3px;
+	margin-top: 25px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockchic .titre2 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockchic .titre3 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: rgb(110,76,204);
+  	position: absolute;
+  	width: 160px;
+	height: 3px;
+	margin-top: 25px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockchic .titre3 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 /*******************************************************************************************************************************************************/
 .palette p, .palette h3, .palette h2 {
 	font-family: 'kaushan_scriptregular';
@@ -359,6 +505,54 @@ mark {
 	width: 35%;
 	height: 10%;
 	margin-top: 3%;
+}
+#blockpalette .titre1 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 75px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockpalette .titre1 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockpalette .titre2 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 175px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockpalette .titre2 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#blockpalette .titre3 h3:before {
+	content: "";
+	border-radius: 30%;
+  	background: black;
+  	position: absolute;
+  	width: 190px;
+	height: 3px;
+	margin-top: 35px;
+	transform-origin: bottom right;
+	transform: scaleX(0);
+	transition: transform 700ms ease-in-out;
+}
+#blockpalette .titre3 h3:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /*******************************************************************************************************************************************************/
 .mentionsite h3 {
@@ -491,5 +685,17 @@ mark {
 	}
 	.mentionsite p {
 		font-size: 2.5em;
+	}
+	#blocknote .titre1 h3:hover:before, #blocknote .titre2 h3:hover:before, #blocknote .titre3 h3:hover:before {
+	  transform: scaleX(0);
+	}
+	#blockdelice .titre1 h3:hover:before, #blockdelice .titre2 h3:hover:before, #blockdelice .titre3 h3:hover:before {
+	  transform: scaleX(0);
+	}
+	#blockchic .titre1 h3:hover:before, #blockchic .titre2 h3:hover:before, #blockchic .titre3 h3:hover:before {
+	  transform: scaleX(0);
+	}
+	#blockpalette .titre1 h3:hover:before, #blockpalette .titre2 h3:hover:before, #blockpalette .titre3 h3:hover:before {
+	  transform: scaleX(0);
 	}
 }
