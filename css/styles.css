@@ -26,6 +26,58 @@
   font-weight: normal;
   font-style: normal;
 }
+@keyframes btn {
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #eeee09;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09;
+  }
+  animation-delay: 0s;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
 .img img {
   width: 150%;
   margin-left: -70%;
@@ -81,41 +133,6 @@ footer h3:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
 .mention {
   margin-left: 5%;
 }
@@ -158,26 +175,6 @@ i.fas {
   background-color: #ffcdd2;
   margin-bottom: 10%;
 }
-
-.menu2 {
-  background-color: #ECEFF1;
-}
-
-.menu3 {
-  background-color: #FCE4EC;
-  margin-bottom: 10%;
-}
-
-.menu4 {
-  background-color: #FAFAFA;
-}
-
-.menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
-  transform: scale(1.1);
-  opacity: 40%;
-  transition: 1000ms;
-}
-
 .menu1 p {
   font-family: "meriendaregular";
   color: #3E2723;
@@ -185,6 +182,9 @@ i.fas {
   margin-top: -7%;
 }
 
+.menu2 {
+  background-color: #ECEFF1;
+}
 .menu2 p {
   font-family: "dynalightregular";
   font-weight: normal;
@@ -195,6 +195,10 @@ i.fas {
   margin-top: 3%;
 }
 
+.menu3 {
+  background-color: #FCE4EC;
+  margin-bottom: 10%;
+}
 .menu3 p {
   font-family: "kuraleregular";
   background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
@@ -203,6 +207,9 @@ i.fas {
   font-size: 1.35em;
 }
 
+.menu4 {
+  background-color: #FAFAFA;
+}
 .menu4 p {
   font-family: "kaushan_scriptregular";
   background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
@@ -212,11 +219,16 @@ i.fas {
   margin-top: 1%;
 }
 
+.menu1 a p:hover, .menu2 a p:hover, .menu3 a p:hover, .menu4 a p:hover {
+  transform: scale(1.1);
+  opacity: 40%;
+  transition: 1000ms;
+}
+
 .box5 {
   display: block;
 }
-
-mark {
+.box5 mark {
   color: #FFCA28;
   font-family: sans-serif;
   font-weight: normal;
@@ -229,29 +241,11 @@ mark {
   margin: 100px;
   border-radius: 10px 10px 10px 10px;
 }
-
-.btn {
+.box5 mark .btn {
   content: ".";
   animation: btn 1.2s steps(5, end) infinite;
 }
 
-@keyframes btn {
-  20% {
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
-  40% {
-    color: #eeee09;
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
-  60% {
-    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09;
-  }
-  animation-delay: 0s;
-}
 /*********************************************************************************************************************************************/
 .note, .chic, .delice, .palette, .mentionsite {
   box-shadow: 0px 0px 10px grey;
@@ -306,42 +300,34 @@ mark {
   margin-right: 7%;
 }
 
-/******************************************************************************************************************************************************/
 .note {
   font-family: "meriendaregular";
   color: #3E2723;
   padding-bottom: 2.5%;
 }
-
-#blocknote p {
+.note p {
   line-height: 3;
   font-size: 1.2em;
 }
-
 .note h3 {
   font-size: 0.8em;
 }
-
 .note .titre h2 {
   font-size: 1.4em;
 }
-
 .note .titre1 {
   margin-top: 1%;
 }
-
 .note img {
   width: 35%;
   height: 10%;
   margin-top: 3%;
 }
-
-.titrebottom {
+.note .titrebottom {
   font-size: 1.2em;
   margin-top: 2%;
 }
-
-#blocknote .titre1 h3:before {
+.note .titre1 h3:before {
   content: "";
   border-radius: 30%;
   background: #3E2723;
@@ -353,13 +339,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blocknote .titre1 h3:hover:before {
+.note .titre1 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blocknote .titre2 h3:before {
+.note .titre2 h3:before {
   content: "";
   border-radius: 30%;
   background: #3E2723;
@@ -371,13 +355,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blocknote .titre2 h3:hover:before {
+.note .titre2 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blocknote .titre3 h3:before {
+.note .titre3 h3:before {
   content: "";
   border-radius: 30%;
   background: #3E2723;
@@ -389,42 +371,35 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blocknote .titre3 h3:hover:before {
+.note .titre3 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/*******************************************************************************************************************************************************/
-.delice p, .delice h3, .delice h2 {
+.delice {
   font-family: "dynalightregular";
 }
-
 .delice p {
   color: black;
   line-height: 2;
   font-size: 1.6em;
 }
-
 .delice h3 {
   color: black;
   font-size: 1em;
 }
-
 .delice h2 {
   background: -webkit-linear-gradient(0deg, #1976D2 0% 30%, #42A5F5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.8em;
 }
-
 .delice img {
   width: 35%;
   height: 10%;
   margin-top: 4%;
 }
-
-#blockdelice .titre1 h3:before {
+.delice .titre1 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -436,13 +411,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockdelice .titre1 h3:hover:before {
+.delice .titre1 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockdelice .titre2 h3:before {
+.delice .titre2 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -454,13 +427,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockdelice .titre2 h3:hover:before {
+.delice .titre2 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockdelice .titre3 h3:before {
+.delice .titre3 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -472,52 +443,42 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockdelice .titre3 h3:hover:before {
+.delice .titre3 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/*******************************************************************************************************************************************************/
-.chic, .chic h2, .chic h3 {
+.chic {
   font-family: "kuraleregular";
 }
-
-.chic h2 {
+.chic .chic h2 {
   background: -webkit-linear-gradient(0deg, #D84315 0% 0%, #9575CD);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5em;
 }
-
 .chic h3 {
   font-size: 0.8em;
 }
-
 .chic .titre1, .chic .description1 {
   color: #c67412;
 }
-
 .chic .titre2, .chic .description2 {
   color: #a56799;
 }
-
 .chic .titre3, .chic .description3 {
   color: #6e4ccc;
 }
-
 .chic p {
   line-height: 2.5;
   font-size: 1.2em;
 }
-
 .chic img {
   width: 35%;
   height: 10%;
   margin-top: 2.5%;
 }
-
-#blockchic .titre1 h3:before {
+.chic .titre1 h3:before {
   content: "";
   border-radius: 30%;
   background: #c67412;
@@ -529,13 +490,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockchic .titre1 h3:hover:before {
+.chic .titre1 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockchic .titre2 h3:before {
+.chic .titre2 h3:before {
   content: "";
   border-radius: 30%;
   background: #a56799;
@@ -547,13 +506,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockchic .titre2 h3:hover:before {
+.chic .titre2 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockchic .titre3 h3:before {
+.chic .titre3 h3:before {
   content: "";
   border-radius: 30%;
   background: #6e4ccc;
@@ -565,41 +522,34 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockchic .titre3 h3:hover:before {
+.chic .titre3 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/*******************************************************************************************************************************************************/
-.palette p, .palette h3, .palette h2 {
+.palette {
   font-family: "kaushan_scriptregular";
 }
-
 .palette p {
   color: black;
   line-height: 3;
   font-size: 1em;
 }
-
 .palette h3 {
   font-size: 0.8em;
 }
-
 .palette h2 {
   background: -webkit-linear-gradient(0deg, #388E3C 0% 30%, #C6FF00);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 1.5em;
 }
-
 .palette img {
   width: 35%;
   height: 10%;
   margin-top: 3%;
 }
-
-#blockpalette .titre1 h3:before {
+.palette .titre1 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -611,13 +561,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockpalette .titre1 h3:hover:before {
+.palette .titre1 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockpalette .titre2 h3:before {
+.palette .titre2 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -629,13 +577,11 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockpalette .titre2 h3:hover:before {
+.palette .titre2 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-#blockpalette .titre3 h3:before {
+.palette .titre3 h3:before {
   content: "";
   border-radius: 30%;
   background: black;
@@ -647,18 +593,15 @@ mark {
   transform: scaleX(0);
   transition: transform 700ms ease-in-out;
 }
-
-#blockpalette .titre3 h3:hover:before {
+.palette .titre3 h3:hover:before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/*******************************************************************************************************************************************************/
 .mentionsite h3 {
   margin-left: 7%;
 }
 
-/*******************************************************************************************************************************************************/
 @media all and (max-device-width: 576px) {
   #blockmain {
     flex-direction: column;
@@ -729,7 +672,7 @@ mark {
     padding-bottom: 7%;
   }
 
-  #blocknote p {
+  .note p {
     line-height: 3;
     font-size: 1.2em;
   }
