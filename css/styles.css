@@ -41,7 +41,6 @@
   100% {
     text-shadow: 0.25em 0 0 #eeee09, 0.5em 0 0 #eeee09;
   }
-  animation-delay: 0s;
 }
 @keyframes shake {
   0% {
